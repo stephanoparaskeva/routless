@@ -1,0 +1,31 @@
+{
+  "name": "routless",
+  "version": "0.0.1",
+  "description": "a routeless routing system for node + express apps",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanoparaskeva/routless.git"
+  },
+  "author": "Stephano Paraskeva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephanoparaskeva/routless/issues"
+  },
+  "homepage": "https://github.com/stephanoparaskeva/routless#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "@types/express": "^4.17.2",
+    "@types/glob": "^7.1.1",
+    "@types/node": "^8.0.29"
+  }
+}
