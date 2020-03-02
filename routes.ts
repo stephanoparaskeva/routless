@@ -9,11 +9,11 @@ const router: any = Router({ mergeParams: true });
 
 // relative path from routes file to controllers folder.
 const controllersPath: string = '../http/controllers/';
-// extension of controllers files (js/ts)
+// extension of controllers files (js/ts).
 const extension: string = 'js'
-// bool for whether you want sucure routes by default
+// bool for whether you want secure routes by default.
 const secureRoutesConstant: boolean = true;
-// your route securing function (must be changed)
+// your route securing function (must be changed).
 const secureRoute: Function = () => {};
 
 const addRouteToRouter = (route: Route, filename: string) => {
